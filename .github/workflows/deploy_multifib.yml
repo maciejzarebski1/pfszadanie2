@@ -26,7 +26,7 @@ jobs:
             image: susamogu/zad2:fib-worker
           - dockerfile: ./Dockerfile
             context: nginx
-            image: susamogu/zad2:fib-router  
+            image: susamogu/zad2:fib-nginx  
     
     steps:
 
